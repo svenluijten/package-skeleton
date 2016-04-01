@@ -1,4 +1,4 @@
-[![package][img-hero]][img-hero]
+![package](https://cloud.githubusercontent.com/assets/11269635/14202863/c0b21296-f7fa-11e5-9ef1-2f684537ee24.jpg)
 
 # Package
 
@@ -65,7 +65,6 @@ welcomed. See the [contributors page](../../graphs/contributors) for all contrib
 [ico-codeclimate]: https://img.shields.io/codeclimate/github/svenluijten/package.svg?style=flat-square
 [ico-quality]: https://img.shields.io/scrutinizer/g/svenluijten/package.svg?style=flat-square
 [ico-insight]: https://img.shields.io/sensiolabs/i/insight-id.svg?style=flat-square
-[ico-hero]: https://cloud.githubusercontent.com/assets/11269635/14202863/c0b21296-f7fa-11e5-9ef1-2f684537ee24.jpg
 
 [link-packagist]: https://packagist.org/packages/sven/package
 [link-downloads]: https://packagist.org/packages/sven/package
