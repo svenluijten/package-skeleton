@@ -1,6 +1,6 @@
 [![package][img-hero]][img-hero]
 
-# Moretisan
+# Package
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
