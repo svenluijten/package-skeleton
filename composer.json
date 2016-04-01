@@ -1,0 +1,31 @@
+{
+    "name": "sven/package",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Luijten",
+            "email": "svenluijten@outlook.com",
+            "homepage": "https://svenluijten.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "illuminate/support": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0",
+        "graham-campbell/testbench": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sven\\Package\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sven\\Package\\Tests\\": "tests/"
+        }
+    }
+}
