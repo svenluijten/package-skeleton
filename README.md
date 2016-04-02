@@ -40,7 +40,7 @@ Next, add the `PackageServiceProvider` to your `providers` array in `config/app.
 // config/app.php
 'providers' => [
     ...
-    Sven\Moretisan\MoretisanServiceProvider::class,
+    Sven\Package\PackageServiceProvider::class,
 ];
 ```
 
