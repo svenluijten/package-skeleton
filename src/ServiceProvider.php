@@ -1,10 +1,10 @@
 <?php
 
-namespace Sven\Package;
+namespace Sven\:namespace;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as LaravelProvider;
 
-class PackageServiceProvider extends ServiceProvider
+class ServiceProvider extends LaravelProvider
 {
     /**
      * Bootstrap the application services.
