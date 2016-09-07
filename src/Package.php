@@ -1,6 +1,6 @@
 <?php
 
-namespace Sven\Package;
+namespace Sven\:namespace;
 
 class Package
 {
