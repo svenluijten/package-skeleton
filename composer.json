@@ -1,5 +1,5 @@
 {
-    "name": "sven/package",
+    "name": "sven/:namespace",
     "description": "",
     "keywords": [],
     "license": "MIT",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Sven\\Package\\": "src/"
+            "Sven\\:namespace\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sven\\Package\\Tests\\": "tests/"
+            "Sven\\:namespace\\Tests\\": "tests/"
         }
     }
 }
