@@ -1,5 +1,5 @@
 {
-    "name": "sven/:namespace",
+    "name": "sven/:package",
     "description": "",
     "keywords": [],
     "license": "MIT",
