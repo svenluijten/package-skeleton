@@ -1,8 +1,8 @@
 <?php
 
-namespace Sven\Moretisan\Tests;
+namespace Sven\:namespace\Tests;
 
-use Sven\Package\PackageServiceProvider;
+use Sven\:namespace\ServiceProvider;
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
 abstract class TestCase extends AbstractPackageTestCase
@@ -15,7 +15,7 @@ abstract class TestCase extends AbstractPackageTestCase
      */
     protected function getServiceProviderClass($app)
     {
-        return PackageServiceProvider::class;
+        return ServiceProvider::class;
     }
 
     /**
