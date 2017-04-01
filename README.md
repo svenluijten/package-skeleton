@@ -8,7 +8,7 @@
 [![Build Status][ico-travis]][link-travis]
 [![Code Climate][ico-codeclimate]][link-codeclimate]
 [![Code Quality][ico-quality]][link-quality]
-[![SensioLabs Insight][ico-insight]][link-insight]
+[![StyleCI][ico-styleci]][link-styleci]
 
 Short description of the package. What does it do and why should people download
 it? Brag a bit but don't exaggerate. Talk about what's to come and tease small
@@ -16,7 +16,7 @@ pieces of functionality.
 
 > :namespace
 > :package
-> :insight
+> :styleci
 > :hero
 
 ## Installation
@@ -74,11 +74,11 @@ though. See the [contributors page](../../graphs/contributors) for all contribut
 [ico-travis]: https://img.shields.io/travis/svenluijten/:package.svg?style=flat-square
 [ico-codeclimate]: https://img.shields.io/codeclimate/github/svenluijten/:package.svg?style=flat-square
 [ico-quality]: https://img.shields.io/scrutinizer/g/svenluijten/:package.svg?style=flat-square
-[ico-insight]: https://img.shields.io/sensiolabs/i/:insight.svg?style=flat-square
+[ico-styleci]: https://styleci.io/repos/:styleci/shield
 
 [link-packagist]: https://packagist.org/packages/sven/:package
 [link-downloads]: https://packagist.org/packages/sven/:package
 [link-travis]: https://travis-ci.org/svenluijten/:package
 [link-codeclimate]: https://codeclimate.com/github/svenluijten/:package
 [link-quality]: https://scrutinizer-ci.com/g/svenluijten/:package/?branch=master
-[link-insight]: https://insight.sensiolabs.com/projects/:insight
+[link-styleci]: https://styleci.io/repos/:styleci
