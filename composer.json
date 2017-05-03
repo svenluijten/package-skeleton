@@ -27,5 +27,8 @@
         "psr-4": {
             "Sven\\:namespace\\Tests\\": "tests/"
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
