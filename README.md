@@ -19,6 +19,12 @@ pieces of functionality.
 > :styleci
 > :hero
 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Installation
 Via [composer](http://getcomposer.org):
 
