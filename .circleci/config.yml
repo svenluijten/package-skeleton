@@ -1,0 +1,12 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/:package
+    docker:
+      - image: circleci/php:7.1-cli
+    steps:
+      - checkout
+      - run: composer self-update
+      - run: composer install -n --prefer-dist
+      - run: ./vendor/bin/phpunit
