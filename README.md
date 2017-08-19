@@ -1,13 +1,11 @@
 ![:package](:hero)
 
-# Package
+# :package
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Code Climate][ico-codeclimate]][link-codeclimate]
-[![Code Quality][ico-quality]][link-quality]
+[![Build Status][ico-circleci]][link-circleci]
 [![StyleCI][ico-styleci]][link-styleci]
 
 Short description of the package. What does it do and why should people download
@@ -19,13 +17,19 @@ pieces of functionality.
 > :styleci
 > :hero
 
-## Table of Contents
+
+## Index
 - [Installation](#installation)
+  - [Downloading](#downloading)
+  - [Registering the service provider](#registering-the-service-provider)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
+You'll have to follow a couple of simple steps to install this package.
+
+### Downloading
 Via [composer](http://getcomposer.org):
 
 ```bash
@@ -33,7 +37,7 @@ $ composer require sven/:package
 ```
 
 Or add the package to your dependencies in `composer.json` and run
-`composer install` on the command line to download the package:
+`composer update` on the command line to download the package:
 
 ```json
 {
@@ -43,6 +47,8 @@ Or add the package to your dependencies in `composer.json` and run
 }
 ```
 
+
+### Registering the service provider
 > Is this a Laravel package?
 
 Next, add the `ServiceProvider` to your `providers` array in `config/app.php`:
@@ -77,14 +83,10 @@ though. See the [contributors page](../../graphs/contributors) for all contribut
 [ico-version]: https://img.shields.io/packagist/v/sven/:package.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/sven/:package.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/svenluijten/:package.svg?style=flat-square
-[ico-codeclimate]: https://img.shields.io/codeclimate/github/svenluijten/:package.svg?style=flat-square
-[ico-quality]: https://img.shields.io/scrutinizer/g/svenluijten/:package.svg?style=flat-square
+[ico-circleci]: https://img.shields.io/circleci/project/github/svenluijten/:package.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/:styleci/shield
 
 [link-packagist]: https://packagist.org/packages/sven/:package
 [link-downloads]: https://packagist.org/packages/sven/:package
-[link-travis]: https://travis-ci.org/svenluijten/:package
-[link-codeclimate]: https://codeclimate.com/github/svenluijten/:package
-[link-quality]: https://scrutinizer-ci.com/g/svenluijten/:package/?branch=master
+[link-circleci]: https://circleci.com/gh/svenluijten/:package
 [link-styleci]: https://styleci.io/repos/:styleci
