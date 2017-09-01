@@ -29,5 +29,15 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sven\\:namespace\\ServiceProvider"
+            ],
+            "aliases": {
+                ":namespace": "Sven\\:namespace\\Facades\\:namespace"
+            }
+        }
     }
 }
