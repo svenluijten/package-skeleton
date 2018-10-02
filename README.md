@@ -7,6 +7,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-circleci]][link-circleci]
 [![StyleCI][ico-styleci]][link-styleci]
+[![PhpStan][ico-phpstan]][link-phpstan]
 
 Short description of the package. What does it do and why should people download
 it? Brag a bit but don't exaggerate. Talk about what's to come and tease small
@@ -85,8 +86,10 @@ though. See the [contributors page](../../graphs/contributors) for all contribut
 [ico-downloads]: https://img.shields.io/packagist/dt/sven/:package.svg?style=flat-square
 [ico-circleci]: https://img.shields.io/circleci/project/github/svenluijten/:package.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/:styleci/shield
+[ico-phpstan]: https://img.shields.io/badge/phpstan-enabled-blue.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/sven/:package
 [link-downloads]: https://packagist.org/packages/sven/:package
 [link-circleci]: https://circleci.com/gh/svenluijten/:package
 [link-styleci]: https://styleci.io/repos/:styleci
+[link-phpstan]: https://github.com/phpstan/phpstan
