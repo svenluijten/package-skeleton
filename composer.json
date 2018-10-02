@@ -39,5 +39,13 @@
                 ":namespace": "Sven\\:namespace\\Facades\\:namespace"
             }
         }
+    },
+    "scripts": {
+        "check": [
+            "@test",
+            "@analyse"
+        ],
+        "test": "phpunit",
+        "analyse": "phpstan analyse src/ tests/"
     }
 }
