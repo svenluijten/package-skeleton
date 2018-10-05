@@ -18,6 +18,7 @@ Here are the steps to follow to contribute to this repository:
 - [Add an 'upstream' remote](#add-a-remote).
 - [Regularly pull & rebase from the upstream remote](#pull-and-rebase).
 - [Work on feature branch](#working-on-branch).
+- [Make tests pass](#make-tests-pass)
 - [Submit a pull request to the master branch](#submitting-pull-request).
 
 ### Fork this repository
@@ -83,6 +84,10 @@ go ahead and push to your feature branch.
 ```bash
 $ git push origin <BRANCH_NAME>
 ```
+
+### Make tests pass
+You can run `composer check` to see if the tests & static analysis pass. Feel free to only run the static analyses at the
+very end, this could take a while on bigger projects. To only run the tests, run `composer test`.
 
 ### Submitting pull request
 Now, let's head back over to this repository on GitHub and submit the pull request!
