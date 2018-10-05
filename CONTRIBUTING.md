@@ -78,7 +78,7 @@ $ git pull --rebase upstream master
 ```
 
 ### Working on branch
-Do your magic and make your fix. I can't help you with this :wink:. Once you're happy with the result and all tests pass,
+Do your magic and make your fix. I can't help you with this 😉. Once you're happy with the result and all tests pass,
 go ahead and push to your feature branch.
 
 ```bash
