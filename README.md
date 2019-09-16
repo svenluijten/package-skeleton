@@ -5,7 +5,7 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-circleci]][link-circleci]
+[![Build Status][ico-build]][link-build]
 [![StyleCI][ico-styleci]][link-styleci]
 [![PhpStan][ico-phpstan]][link-phpstan]
 
@@ -84,12 +84,12 @@ though. See the [contributors page](../../graphs/contributors) for all contribut
 [ico-version]: https://img.shields.io/packagist/v/sven/:package.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/sven/:package.svg?style=flat-square
-[ico-circleci]: https://img.shields.io/circleci/project/github/svenluijten/:package.svg?style=flat-square
+[ico-build]: https://img.shields.io/travis/svenluijten/:package?style=flat-square
 [ico-styleci]: https://styleci.io/repos/:styleci/shield
 [ico-phpstan]: https://img.shields.io/badge/phpstan-enabled-blue.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/sven/:package
 [link-downloads]: https://packagist.org/packages/sven/:package
-[link-circleci]: https://circleci.com/gh/svenluijten/:package
+[link-build]: https://travis-ci.org/svenluijten/:package
 [link-styleci]: https://styleci.io/repos/:styleci
 [link-phpstan]: https://github.com/phpstan/phpstan
