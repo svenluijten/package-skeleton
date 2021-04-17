@@ -18,15 +18,6 @@ pieces of functionality.
 > :styleci
 > :hero
 
-
-## Index
-- [Installation](#installation)
-  - [Downloading](#downloading)
-  - [Registering the service provider](#registering-the-service-provider)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation
 You'll have to follow a couple of simple steps to install this package.
 
