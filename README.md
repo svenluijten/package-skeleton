@@ -19,26 +19,11 @@ pieces of functionality.
 > :hero
 
 ## Installation
-You'll have to follow a couple of simple steps to install this package.
-
-### Downloading
-Via [composer](http://getcomposer.org):
+You can install this package via [Composer](http://getcomposer.org):
 
 ```bash
 $ composer require sven/:package
 ```
-
-Or add the package to your dependencies in `composer.json` and run
-`composer update` on the command line to download the package:
-
-```json
-{
-    "require": {
-        "sven/:package": "*"
-    }
-}
-```
-
 
 ### Registering the service provider
 > Is this a Laravel package?
@@ -53,7 +38,7 @@ Next, add the `ServiceProvider` to your `providers` array in `config/app.php`:
 ```
 
 If you would like to load this package in certain environments only, take a look
-at [sven/env-providers](https://github.com/svenluijten/env-providers).
+at [`sven/env-providers`](https://github.com/svenluijten/env-providers).
 
 ## Usage
 Some examples of the code. How should people use it, what options does this package
