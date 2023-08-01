@@ -46,6 +46,6 @@
             "@analyse"
         ],
         "test": "phpunit",
-        "analyse": "phpstan analyse src/ tests/"
+        "analyse": "phpstan analyse"
     }
 }
